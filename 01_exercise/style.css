@@ -4,6 +4,7 @@ h1 {
 }
 
 .robots {
+	display: block;
 }
 
 .head, 
@@ -24,13 +25,14 @@ h1 {
 } 
 
 .eyes {
-	
+	display: flex;
 }
 
 .upper_body { 
 	width: 300px; 
 	height: 150px;
-	display: flex; 
+	display: flex;
+	margin: 0 auto;
 } 
 
 .left_arm, .right_arm { 
@@ -57,6 +59,7 @@ h1 {
 	width: 200px; 
 	height: 200px;
 	/* This is another useful property. Hmm what do you think it does?*/
+	display: flex;
 	margin: 0 auto;
 
 } 
